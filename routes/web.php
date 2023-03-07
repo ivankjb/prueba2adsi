@@ -17,3 +17,7 @@ use App\Http\Controllers\EmployeeController;
 
 
 Route::get('/web',[EmployeeController::class,'sale']);
+
+Route::get('/wed2', function () {
+    return view('hawer');
+});
